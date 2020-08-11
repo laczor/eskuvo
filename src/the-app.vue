@@ -23,6 +23,11 @@
 			<img
 				alt="Kata és Isti"
 				v-bind:srcset="`${kataIstiMobilePicture} 500w, ${kataIstiPicture} 800w`">
+			<div class="section">
+				<i>
+					<div class="wedding-date has-text-centered">2020.08.29</div>
+				</i>
+			</div>
 			<article class="poem is-size-6-mobile is-size-4-desktop ">
 				<i>
 					Az életnek nincsen íze só nélkül,
@@ -123,6 +128,10 @@ export default {
 	.sub-title {
 		font-size: 2rem;
 		font-weight: 600;
+	}
+	.wedding-date{
+		font-size: 35px;
+		font-family: "Baskerville";
 	}
 </style>
 
