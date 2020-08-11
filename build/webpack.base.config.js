@@ -22,7 +22,7 @@ module.exports = {
 			{ test: /\.js$/, loader: 'babel-loader', include: babelInclude },
 			{ test: /\.css$/, use: cssLoaders },
 			{ test: /\.(scss|sass)$/, use: [...cssLoaders, 'resolve-url-loader', withSourceMap('sass-loader')] },
-			{ test: /\.png$/, loader: 'file-loader', options: { name: '[name].[ext]', outputPath: 'images/' } },
+			{ test: /\.(png|jpg)$/, loader: 'file-loader', options: { name: '[name].[ext]', outputPath: 'images/' } },
 			{
 				test: /\.woff(2)?$/,
 				loader: 'url-loader',
