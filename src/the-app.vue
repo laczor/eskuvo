@@ -167,6 +167,7 @@ export default {
 		justify-content: center;
 	}
 	.wedding-date{
+		font-weight: 900;
 		font-size: 35px;
 	}
 	.menetrend-lista{
