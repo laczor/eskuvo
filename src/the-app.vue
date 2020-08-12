@@ -52,7 +52,7 @@
 			<div class="section">
 				<h2 id=helyszin class="sub-title mb-4">Helyszín</h2>
 				<div><strong> <a href="https://www.csonakhaz.hu" class="lin is-info">Csónakház Mulató</a></strong></div>
-				<div>Budapest, Római part 30, 1031</div>
+				<div>Budapest, 1031 Római part 30</div>
 				<div>Emelet - terasz</div>
 			</div>
 			<div class="section content with-background" :style="{ backgroundImage: `url('${titleBackground}')` }">
@@ -63,12 +63,12 @@
 					<li><strong>17:00</strong> Gratuláció és Ajándékozás</li>
 					<li><strong>19:30</strong> Vacsora</li>
 				</ul>
-				<div class="mt-6"> Rendhagyó kör menyasszonytánc -  Hogy szerencsés legyen a nagy napunk, örülünk ha a perselybe egy-egy sorsjegyet kapunk.</div>
+				<div class="mt-6"> Menyasszonytánc -  Hogy szerencsés legyen a nagy napunk, örülünk ha a perselybe egy-egy sorsjegyet kapunk.</div>
 			</div>
 			<div class="section content">
 				<h2 id=parkolas class="sub-title mb-4">Parkolás</h2>
 				<ul>
-					<li>Parkolni a környező utcákban bárhol lehet, de legjobban annak örülnénk ha nem autóval jönnél, így velünk együtt felhőtlenül mulatnál és koccintanál.</li>
+					<li>Parkolni a környező utcákban bárhol lehet (Kadosa, Rozgonyi), de legjobban annak örülnénk ha nem autóval jönnél, így velünk együtt felhőtlenül mulatnál és koccintanál.</li>
 					<li>Taxi helyett javasoljuk a <strong><a href="https://play.google.com/store/apps/details?id=com.nerddevelopments.taxidriver.carforyou.orderapp"> car4you</a></strong> alkalmazást, szólj és segítünk megrendelni.</li>
 				</ul>
 			</div>
