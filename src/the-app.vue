@@ -85,6 +85,7 @@
 	</div>
 </template>
 
+
 <script>
 import titleBackground from './assets/titleBackground.png';
 import titleBackground_upside from './assets/titleBackground_upside.png';
