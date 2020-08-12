@@ -10,11 +10,12 @@
 		"default_public_path": "/"
 	},
 	"scripts": {
+		"start": "node app.js",
+		"build": "cross-env NODE_ENV=production npm run bundle",
 		"bundle": "webpack --progress --hide-modules --config build/webpack.config",
 		"dev": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --disable-host-check --config build/webpack.config",
 		"storybook": "start-storybook -p 3333",
 		"storybook:build": "build-storybook -c .storybook -o public",
-		"build": "cross-env NODE_ENV=production npm run bundle",
 		"analyze": "cross-env ANALYZE=true npm run build",
 		"test": "npm run lint && npm run unit -- --coverage --verbose",
 		"lint": "eslint --max-warnings 0 --ext .js,.vue src test build .storybook \"*.config.js\"",
