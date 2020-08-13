@@ -60,10 +60,10 @@
 				<ul class="menetrend-lista">
 					<li><strong>16:00</strong> Vendégvárás</li>
 					<li><strong>16:30</strong> Szertartás </li>
-					<li><strong>17:00</strong> Gratuláció és Ajándékozás</li>
+					<li><strong>17:00</strong> Gratuláció </li>
 					<li><strong>19:30</strong> Vacsora</li>
 				</ul>
-				<div class="mt-6"> Menyasszonytánc -  Hogy szerencsés legyen a nagy napunk, örülünk ha a perselybe egy-egy sorsjegyet kapunk.</div>
+				<div class="mt-6"> Kör menyasszonytánc -  Hogy szerencsés legyen a nagy napunk, örülünk ha a perselybe egy-egy sorsjegyet kapunk.</div>
 			</div>
 			<div class="section content">
 				<h2 id=parkolas class="sub-title mb-4">Parkolás</h2>
