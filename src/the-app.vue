@@ -35,13 +35,13 @@
 					Hát a lagzink sem marad el végül.
 
 					Sok sok szeretettel meghívunk Titeket,
-					Mert ünnepelni csak veletek lehet.
+					Mert ünnepelni csak Veletek lehet.
 
 					Elindul az élet tengerén utazásunk,
 					Legyél kezdetén velünk útitársunk.
 
 					A nagy napot már izgatottan várjuk,
-					A kezeinket felétek szeretettel tárjuk.
+					Kezeinket felétek szeretettel tárjuk.
 
 					Ami még hiányzik már csak a házunk,
 					Boritékba rakott suskával, télen sem fázunk.
@@ -75,9 +75,9 @@
 			<div class="section content with-background upside-down pb-6" :style="{ backgroundImage: `url('${titleBackground_upside}')` }">
 				<h2 id=egyeb class="sub-title mb-4">Egyéb</h2>
 				<ul>
-					<li>Teraszon leszünk, távolságot fogsz tudni tartani, amennyiben szeretnél.</li>
+					<li>Teraszon leszünk, távolságot fogsz tudni tartani.</li>
 					<li>Közös fotó, ölelés, puszi lesz bőven, de csak akkor vegyél részt benne ha szeretnél:)</li>
-					<li>A legjobb fotósaink lesznek, így kérünk bízd rájuk a munkát, szívesen látnánk ha <strong>telefon nélkül </strong> lennél rajta a képeken.</li>
+					<li>Profi fotósaink lesznek, így kérünk bízd rájuk a munkát, szívesen látnánk ha <strong>telefon nélkül </strong> lennél rajta a képeken.</li>
 					<li>A víz közelsége miatt késői órákra egy kardigán nem árthat.</li>
 				</ul>
 			</div>
