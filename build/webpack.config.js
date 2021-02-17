@@ -10,7 +10,7 @@ const { config } = require('../package');
 
 const apiPath = process.env.API_PATH || config.default_api_path;
 const publicPath = process.env.PUBLIC_PATH || config.default_public_path;
-const distPath = path.resolve(__dirname, '../dist');
+const distPath = path.resolve(__dirname, '../docs');
 
 module.exports = merge(baseConfig, {
 	entry: {
