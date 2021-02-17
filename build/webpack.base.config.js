@@ -6,7 +6,8 @@ const { cssFilename, fontFilename } = require('./hashed-asset.config');
 
 const cssLoaders = [CssExtractPlugin.loader, withSourceMap('css-loader'), withSourceMap('postcss-loader')];
 const babelInclude = projectPaths('src', 'test');
-
+const { config } = require('../package');
+const publicPath = process.env.PUBLIC_PATH || config.default_public_path;
 module.exports = {
 	resolve: {
 		alias: {
@@ -34,7 +35,7 @@ module.exports = {
 	plugins: [
 		new VueLoaderPlugin(),
 		new CssExtractPlugin({ filename: cssFilename }),
-		new HtmlWebpackPlugin({ template: 'src/index.html', chunksSortMode: 'none' }),
+		new HtmlWebpackPlugin({ template: 'src/index.html', chunksSortMode: 'none', publicPath }),
 	],
 	devtool: 'source-map',
 };
