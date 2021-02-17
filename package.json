@@ -15,7 +15,7 @@
 		"build": "cross-env NODE_ENV=production npm run bundle",
 		"bundle": "webpack --progress --hide-modules --config build/webpack.config",
 		"dev": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --disable-host-check --config build/webpack.config",
-		"deploygitgithub": "npm run bundle && gh-pages -d dist",
+		"deploy-github": "npm run bundle && gh-pages -d dist",
 		"storybook": "start-storybook -p 3333",
 		"storybook:build": "build-storybook -c .storybook -o public",
 		"analyze": "cross-env ANALYZE=true npm run build",
