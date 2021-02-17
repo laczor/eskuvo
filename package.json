@@ -1,5 +1,4 @@
 {
-	"homepage": "https://laczor.github.io/eskuvo",
 	"name": "KataIsti",
 	"description": "",
 	"author": "",
@@ -8,7 +7,7 @@
 	"license": "UNLICENSED",
 	"config": {
 		"default_api_path": "/",
-		"default_public_path": "/"
+		"default_public_path": "/eskuvo"
 	},
 	"scripts": {
 		"start": "node app.js",
