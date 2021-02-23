@@ -7,7 +7,7 @@
 	"license": "UNLICENSED",
 	"config": {
 		"default_api_path": "/",
-		"default_public_path": "/eskuvo"
+		"default_public_path": "/"
 	},
 	"scripts": {
 		"start": "node app.js",
